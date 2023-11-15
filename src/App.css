@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: red;
 }
 
 .App-logo {
@@ -35,4 +36,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.container{
+  padding: 48px;
+  
+  background-color: red;
+}
+
+table{
+  /* border: 1px solid black; */
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+  
+
+  background-color: #1E1F25;
+  
+  
+  /* overflow: scroll; */
+}
+table tr{
+  border-bottom: 1px solid black;
+  background-color: rgb(20, 100, 147);
+  color: white;
+  
+}
+
+table thead{
+  position: sticky;
+  top: 0px;
+  /* margin: 0 0 0 0; */
+}
+table th{
+  padding: 16px;
+  background-color: grey;
+}
+table td{
+  padding: 8px;
+
+}
+
+.tableContainer{
+  /* background-color: #1E1F25; */
+  /* border-radius: 20px; */
+  height: 500px;
+  /* padding: 0 10px 10px 10px; */
+  overflow: scroll;
+  overflow-x: hidden;  
+
+
 }

@@ -3,3 +3,37 @@
     width: 250px;
     background-color: #2f4050;
 }
+
+.sideList{
+    background-color: grey;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.sideList .sideItem{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    /* padding: 8px; */
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    border-bottom: 1px black solid;
+    
+    
+}
+
+.sideItem #icon{
+    /* display: flex; */
+    flex: 30%;
+    /* background-color: #fff; */
+    text-align: center;
+}
+
+.sideItem #title{
+    flex:70%;
+    
+
+    
+}

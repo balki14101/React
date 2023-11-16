@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
   background-color: red;
 }
@@ -36,7 +36,7 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 
 .container{
@@ -46,16 +46,13 @@
 }
 
 table{
-  /* border: 1px solid black; */
   border-collapse: collapse;
   width: 100%;
   text-align: center;
   
 
   background-color: #1E1F25;
-  
-  
-  /* overflow: scroll; */
+
 }
 table tr{
   border-bottom: 1px solid black;
@@ -67,7 +64,6 @@ table tr{
 table thead{
   position: sticky;
   top: 0px;
-  /* margin: 0 0 0 0; */
 }
 table th{
   padding: 16px;

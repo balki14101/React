@@ -45,8 +45,7 @@ function Home() {
             </thead>
             <tbody>
             <UserData users={users}/>
-            <UserData users={users}/>
-            <UserData users={users}/>
+            
             </tbody>
         </table>
         </div>

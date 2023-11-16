@@ -41,8 +41,11 @@
   
   .container{
     padding: 48px;
+    background-color: lightgray;
+    height: 100vh;
     
-    background-color: red;
+    
+    
   }
   
   table{
@@ -81,10 +84,11 @@
   .tableContainer{
     /* background-color: #1E1F25; */
     /* border-radius: 20px; */
-    height: 500px;
-    /* padding: 0 10px 10px 10px; */
+    height: 460px;
+    /* padding: 32px; */
     overflow: scroll;
-    overflow-x: hidden;  
+    overflow-x: hidden; 
+    /* overflow-y: hidden;  */
   
   
   }

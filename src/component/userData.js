@@ -1,4 +1,8 @@
+import {useNavigate} from 'react-router-dom'
+
 const UserData = ({users}) => {
+
+    const navigate = useNavigate()
     return (
         <>
             {
@@ -13,7 +17,7 @@ const UserData = ({users}) => {
                             <td>{email}</td>
                             <td>{street}, {city}, {" "}, {zipcode}</td>
                             <td>
-                                <button>view</button>
+                                <button onClick={()=> navigate('/main',{state:{name}})}>view</button>
                             </td>
                         </tr>
                     )

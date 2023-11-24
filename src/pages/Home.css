@@ -92,3 +92,13 @@
   
   
   }
+  .buttonSection{
+    background-color: #fff;
+    justify-content: space-between;
+
+    display: flex;
+  }
+
+  p{
+    margin: 0;
+  }

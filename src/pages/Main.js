@@ -1,17 +1,32 @@
-import { useLocation } from 'react-router-dom'
+import { Route, Routes, useLocation,Switch  } from 'react-router-dom'
 import './Main.css';
 import SideBar from '../component/sideBar';
-function Main(props) {
+import Settings  from './Settings';
+import More from './More';
+import Content from './content';
+function Main({data}) {
 
     const location = useLocation()
 
     return (
         <div className='mainContainer'>
             <SideBar/>
-            <div style={{width:"100%",backgroundColor:"aqua",textAlign:"center"}}>
+            {/* <div style={{width:"100%",backgroundColor:"aqua",textAlign:"center"}}>
             <h4>{location.state.name}</h4>
             <p>this is main page</p>
-            </div>
+            
+            </div> */}
+            <div style={{width:"100%",backgroundColor:"aqua",textAlign:"center"}}>
+            <Content data={location.state.name}/>
+
+            
+            
+
+                
+    
+
+
+                </div>
         </div>
 
     )

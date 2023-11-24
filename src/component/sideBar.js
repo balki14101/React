@@ -16,12 +16,12 @@ function SideBar() {
         {
             title: "Settings",
             icon: <SettingsIcon/>,
-            to: ""
+            to: "/settings"
         },
         {
             title: "More",
             icon: <MoreVertIcon/>,
-            to: ""
+            to: "/more"
         },
     ]
 

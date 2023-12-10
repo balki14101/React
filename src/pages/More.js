@@ -5,7 +5,7 @@ function More(props) {
     return (
 
 
-        <div>
+        <div style={{backgroundColor:"red"}}>
             <p>this is More page</p>
 
         </div>

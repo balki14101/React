@@ -146,7 +146,7 @@ useEffect(() => {
                             <td>{email}</td>
                             <td>{street}, {city}, {" "}, {zipcode}</td>
                             <td>
-                                <button onClick={()=> navigate('/main',{state:{firstname}})}>view</button>
+                                <button onClick={()=> navigate('/sidebar',{state:{firstname}})}>view</button>
                             </td>
                         </tr>
                     )
